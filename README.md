@@ -12,7 +12,7 @@ A script which lets to claim rewards and re-delegate back to your validator.
 
 #### Instructions.
 
-1. Download the script. Change permissions. `curl -LO https://github.com/tigdar/akash/blob/main/akash-redelegate.sh && chmod +x akash-redelegate.sh`
+1. Download the script. Change permissions. `https://raw.githubusercontent.com/tigdar/akash/main/akash-redelegate.sh && chmod +x akash-redelegate.sh`
 2. Edit the script and modify the parameters mentioned in "User Settings" section. Bare minimum settings are - your local akash wallet name and validator name.
 3. Execute the script `./akash-redelegate.sh`
 
