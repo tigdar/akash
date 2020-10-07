@@ -11,7 +11,7 @@
 # User settings. (Change these values to match your requirements)
 ##############################################################################################################################################################
 
-KEY=""                                  # This is the key you wish to use for signing transactions, listed in first column of "gaiacli keys list".
+KEY=""                                  # This is the key you wish to use for signing transactions, listed in first column of "akashctl keys list".
 PASSPHRASE=""                           # Only populate if you want to run the script periodically. This is UNSAFE and should only be done if you know what you are doing.
 DENOM="uakt"                           # Coin denominator is uakt ("microoatom"). 1 akt = 1000000 uakt.
 MINIMUM_DELEGATION_AMOUNT="25000000"    # Only perform delegations above this amount of uakt. Default: 25akt.
