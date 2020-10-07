@@ -16,8 +16,9 @@ A script which lets to claim rewards and re-delegate back to your validator.
 2. Edit the script and modify the parameters mentioned in "User Settings" section. Bare minimum settings are - your local akash wallet name and validator name.
 3. Execute the script `./akash-redelegate.sh`
 
-#### Optional
 
-Script can be scheduled via cron to run at frequent intervals to collect rewards and re-delegate.
+#### To be improved...
+On Ubuntu 20.04 LTS using Gnome Keyring, the default passphrase is saved to keyring backed and hence, if you configure the PASSPHRASE param in the script, it will auto-execute with no more prompts.
 
-Tested on Ubuntu 20.04 LTS
+However, on Ubuntu 18.04 LTS server (since there is no keyring backend configured by default), `akashctl keys show $KEY --output json` will prompt for passphrase.
+
