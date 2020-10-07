@@ -13,7 +13,7 @@
 
 KEY=""                                  # This is the key you wish to use for signing transactions, listed in first column of "akashctl keys list".
 PASSPHRASE=""                           # Only populate if you want to run the script periodically. This is UNSAFE and should only be done if you know what you are doing.
-DENOM="uakt"                           # Coin denominator is uakt ("microoatom"). 1 akt = 1000000 uakt.
+DENOM="uakt"                           # Coin denominator is uakt ("microoakash"). 1 akt = 1000000 uakt.
 MINIMUM_DELEGATION_AMOUNT="25000000"    # Only perform delegations above this amount of uakt. Default: 25akt.
 RESERVATION_AMOUNT="100000000"          # Keep this amount of uatom in account. Default: 100akt.
 VALIDATOR="akashvaloper1sqrcxk0zxx6uwpjl5ylug2pd467vyxzt4sqze7"        # Default is Tigdar Validator. Thank you for your patronage :-)
